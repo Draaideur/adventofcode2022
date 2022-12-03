@@ -2,7 +2,6 @@
 
 <?php
 $input = fopen("input_01.txt", "r") or die("Unable to open file!");
-// Output one line until end-of-file
 $richestElf = 0;
 $currentElf = 0;
 while(!feof($input)) {

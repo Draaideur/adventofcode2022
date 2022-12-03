@@ -2,7 +2,6 @@
 
 <?php
 $input = fopen("input_02.txt", "r") or die("Unable to open file!");
-// Output one line until end-of-file
 $totalScore = 0;
 while(!feof($input)) {
 	$line = str_replace("\r\n", "", fgets($input));
